@@ -1,0 +1,73 @@
+#movieName{
+    font-weight: bold
+}
+
+.movieDetails{
+    padding-left: 30px;
+}
+
+#titleDiv{
+    margin-top:15px;
+    width: 100%;
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+#APIInfo{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#aJAXResponseDiv{
+    margin:20px;
+    font-size: 25px;
+}
+
+#fetchResponseDiv{
+    margin:20px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+#getInfoDiv p{
+    text-align: center;
+    font-size: 25px
+}
+form{
+    text-align: center;
+    margin: 20px;
+}
+#userInputBox{
+    height:30px;
+    width: 24%;
+}
+
+#submitButton{
+    height: 34px;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+input[type="text"]
+{
+    font-size:24px;
+}
+
+h2{
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.movieInfoDiv{
+    font-size: 25px;
+}

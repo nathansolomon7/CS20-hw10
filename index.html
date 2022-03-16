@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id = "titleDiv">
+            <h1> University Domains and Names API</h1>
+        </div>
+        <div id = "APIInfo">
+        <p>The omdb API allows clients to make a 
+        query to a database of movie information using 
+        a search term of the title. For example, a client can query the name "Jaws" to 
+        receive a JSON object that contains information about the movie Jaws
+        </p>
+        
+        <p>I found the API at: https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
+        https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/</p>
+        
+        <p>The options used for the API request was a "GET" request, where for the 
+        AJAX method, i used an XMLHttpRequest while the Fetch method used an HTTP request.
+        A key is used within the request to specify the search term of the university/ universities
+        that the client requests.</p>
+        
+        <p>Two applications where this API would be useful would be:</p>
+        <p><strong>1.</strong> A developer can query movie information to their site, 
+        whether it is a trivia platfrom that relies on movie information as data 
+        or their own movie-based sites</p>
+        <p><strong>2.</strong> Developers can use the API to develop analytics 
+        about trends in film making over time, as the API also allows you to search 
+        in batch results and can filter results with other terms other than title.
+        I only pull up the first result for simplicity on this assignment.</p>
+        </div>
+        <div id="getInfoDiv">
+            <p>Input the name of a movie below, and click the Enter button</p>
+            <form>
+                <input id= "userInputBox" type="text" name="" value="" placeholder=" Ex: Jaws"></input>
+                <button id = "submitButton" type="button" name="filterButton">Enter</button>
+            </form>
+        </div>
+        
+        <h2> API called using AJAX method: </h2>
+        <div id = "aJAXResponseDiv">
+            
+        </div>
+        
+        <h2> API called using Fetch method: </h2>
+        <div id = "fetchResponseDiv">
+            
+        </div>
+        
+    </body>
+    <script src = "api.js"></script>
+    
+</html>
